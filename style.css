@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box {
+  background: blue;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 2px;
+}

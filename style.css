@@ -2,23 +2,19 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
   height: 50vh;
 }
 
 .children {
-  background: blue;
+  background: peru;
   color: white;
   width: 100px;
   height: 100px;
   margin-bottom: 2px;
-}
-
-.children:nth-child(2) {
-  align-self: center;
-  order: -1;
-}
-
-.children:nth-child(3) {
-  align-self: flex-end;
-  order: 2;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,12 +1,24 @@
-body {
+.father {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  height: 50vh;
 }
 
-.box {
+.children {
   background: blue;
+  color: white;
   width: 100px;
   height: 100px;
   margin-bottom: 2px;
+}
+
+.children:nth-child(2) {
+  align-self: center;
+  order: -1;
+}
+
+.children:nth-child(3) {
+  align-self: flex-end;
+  order: 2;
 }
